@@ -1,0 +1,74 @@
+
+body {
+  margin: 0;
+  background-color: #0e0e0e;
+  color: #d6c6a8;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+nav a {
+  color: #d6c6a8;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1rem;
+}
+
+.hero {
+  padding: 60px 20px;
+  text-transform: uppercase;
+}
+
+.hero h2 {
+  font-size: 4.5rem;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  margin-bottom: 20px;
+  color: #d6c6a8;
+  text-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+.cta {
+  border: 2px solid #d6c6a8;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  color: #d6c6a8;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.featured {
+  padding: 40px 20px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.product {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.product img {
+  width: 180px;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.4));
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
